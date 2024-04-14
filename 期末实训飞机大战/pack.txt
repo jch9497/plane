@@ -1,0 +1,1 @@
+pyinstaller --onefile --add-data="images/*.png;images" --add-data="images/*.jpg;images" --add-data="sounds/*.wav;sounds" --add-data="sounds/*.mp3;sounds" yjj_main.py yjj_sprites.py yjj_music.py
